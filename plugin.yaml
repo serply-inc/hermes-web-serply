@@ -1,0 +1,12 @@
+name: web-serply
+version: 1.0.0
+description: "Serply web search provider for Hermes Agent - Google web results via the Serply SERP API. Requires SERPLY_API_KEY (sign up at https://serply.io)."
+author: Serply
+kind: backend
+provides_web_providers:
+  - serply
+requires_env:
+  - name: SERPLY_API_KEY
+    description: "Serply API key"
+    url: "https://serply.io"
+    secret: true
